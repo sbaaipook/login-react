@@ -1,9 +1,13 @@
 import React from 'react'
 import "./App.css"
+import Header from '../../Components/Header'
+import Home from "../Home"
 
-function App() {
+const App=()=> {
   return (
-    <div>App</div>
+    <Home>
+      <Header/>  
+    </Home>
   )
 }
 
