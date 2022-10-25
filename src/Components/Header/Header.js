@@ -3,7 +3,7 @@ import "./Header.css"
 const Header = () => {
   return (
     <header>
-      <a href="#" className='head-title'>Login React</a>
+      <a href="#" className='head-title'>Login <span>React</span></a>
       <ul>
         <li>
           <a href='#'>Sign in</a>
