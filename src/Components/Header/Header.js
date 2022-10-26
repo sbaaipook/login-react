@@ -1,15 +1,15 @@
 import React from 'react'
 import "./Header.css"
-const Header = () => {
+const Header = props => {
   return (
     <header>
-      <a href="#" className='head-title'>Login <span>React</span></a>
+      <a href="/" className='head-title'>Login <span>React</span></a>
       <ul>
         <li>
-          <a href='#'>Sign in</a>
+          <button onClick={props.signinClick} className="a">Se connecter</button>
         </li>
         <li>
-          <a href='#'>Sign up</a>
+          <button className="a" onClick={props.signupClick} >S'inscrire</button>
         </li>
       </ul>
     </header>

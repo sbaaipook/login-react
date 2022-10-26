@@ -1,0 +1,12 @@
+.screen-def {
+	width: 500px;
+	height: 600px;
+	background: #eee;
+	margin: 20px auto;
+	border-radius: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}

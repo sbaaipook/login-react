@@ -1,0 +1,24 @@
+.signin {
+	width: 500px;
+	height: 600px;
+	background: #ff76067d;
+	margin: 20px auto;
+	border-radius: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+.msg-err{
+	display: inline-block;
+	max-height: 40px;
+	height: 30px;
+	color: red;
+	font-size: .5em;
+	transition: .2s;
+	padding-top: 5px;
+}
+.signin input {
+	width: 80%;
+}

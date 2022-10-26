@@ -22,17 +22,17 @@ a{
 a span{
   color: var(--scondaryColor);
 }
-header ul li a{
+header ul li .a{
   padding: 3px 5px;
   background-color: var(--primaryColor);
   border-radius: 5px;
   display: inline-block;
   transition: .2s;
 }
-header ul li:nth-child(2) a{
+header ul li:nth-child(2) .a{
   background-color: var(--scondaryColor);
 }
-header ul li a:hover{
+header ul li .a:hover{
   letter-spacing: 1px;
   transform: scale(1.1);
 }
