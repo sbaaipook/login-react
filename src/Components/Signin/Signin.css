@@ -1,7 +1,7 @@
 .signin {
 	width: 500px;
 	height: 600px;
-	background: #ff76067d;
+	background: #194a8d;
 	margin: 20px auto;
 	border-radius: 20px;
 	text-align: center;
@@ -14,10 +14,12 @@
 	display: inline-block;
 	max-height: 40px;
 	height: 30px;
-	color: red;
+	color: #df1c44;
 	font-size: .5em;
+	font-weight:500;
+	letter-spacing:1px;
 	transition: .2s;
-	padding-top: 5px;
+	/*padding-top: 5px;*/
 }
 .signin input {
 	width: 80%;
