@@ -1,4 +1,4 @@
-.
+<pre>.
 ├── README.md                                           ├── READMEGIT.md
 ├── package-lock.json
 ├── package.json
@@ -46,3 +46,4 @@
 └── tree-proj.txt
 
 14 directories, 32 files
+</pre>
